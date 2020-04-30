@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(80deg, #E13E39, #F8971C);
+    min-height: 90vh;
+}
+
+header {
+    min-height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-img {
+    width: 10rem;
+    position: relative;
+    right: 2rem;
+}
+
+
+.number-balls{
+    margin: auto;
+    display: flex;
+    min-width: 80%;
+}
+
+.ball {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color: white;
+    
+}
