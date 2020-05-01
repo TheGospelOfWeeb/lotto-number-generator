@@ -52,6 +52,11 @@ header {
     width: 6rem;
     border-radius: 50%;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 2rem;
 }
 
 .mega-ball {
@@ -68,8 +73,9 @@ header {
     background-image: linear-gradient(80deg, #6EBD63, #3A8D33);
     border: none;
     padding: 2rem;
-    border-radius: 5%;
+    border-radius: 1rem;
     cursor: pointer;
     font-family: "bit-bold";
     font-size: 2rem;
+    font-weight: bold;
 }
