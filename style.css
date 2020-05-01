@@ -4,6 +4,21 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: "bit-bold";
+    src: url("/fonts/Bitter-Bold.ttf");
+}
+
+@font-face {
+    font-family: "bit-italic";
+    src: url("/fonts/Bitter-Italic.ttf");
+}
+
+@font-face {
+    font-family: "bit-reg";
+    src: url("/fonts/Bitter-Regular.ttf");
+}
+
 body {
     background-image: linear-gradient(80deg, #E13E39, #F8971C);
     min-height: 90vh;
@@ -25,9 +40,11 @@ header {
 
 
 .number-balls{
-    margin: auto;
+    margin: 10% auto;
     display: flex;
-    min-width: 80%;
+    width: 50%;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 .ball {
@@ -35,5 +52,24 @@ header {
     width: 6rem;
     border-radius: 50%;
     background-color: white;
-    
+}
+
+.mega-ball {
+    background-color: yellow;
+}
+
+.new-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-num-btn {
+    background-image: linear-gradient(80deg, #6EBD63, #3A8D33);
+    border: none;
+    padding: 2rem;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: "bit-bold";
+    font-size: 2rem;
 }
